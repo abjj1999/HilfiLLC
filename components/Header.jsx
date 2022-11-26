@@ -21,7 +21,10 @@ const Header = () => {
             fontSize: "15px",
           }}
         >
-          Call Us: 123-456-7890
+          Call Us:{" "}
+          <a className="text-primary teli" href="tel:+">
+            123-456-7890
+          </a>
         </span>
       </div>
     </div>

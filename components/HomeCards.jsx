@@ -17,7 +17,11 @@ const text = (
 );
 const HomeCards = () => {
   return (
-    <Collapse bordered={false} defaultActiveKey={["1"]}>
+    <Collapse
+      style={{ marginBottom: "150px" }}
+      bordered={false}
+      defaultActiveKey={["1"]}
+    >
       <Panel header="Auto Insurance" key="1">
         <div className="d-flex justify-content-between p-3">
           <p className="w-75">
